@@ -9,6 +9,6 @@ class student:
         print(f"Grade: {self.name}")
         print(f"School: {self.school}")
 
-student = student("Sam", "11th", "California High School")
+student1 = student("Sam", "11th", "California High School")
 
-student.display_info()
+student1.display_info()
