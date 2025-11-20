@@ -1,10 +1,11 @@
 class ShoppingCart:
-    def __init__(self, item):
+    def __init__(self, item, price, items):
         self.item = item
-
-    def add_item(self, item, price):
-        self.item =item
         self.price = price
+        self.items = items
+
+    def add_item(self):
+        self.item[self.item] = self.price
 
     def remove_item(self, item):
         if item in self.item:
